@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+* {
+	font-family: 'Oxygen', sans-serif;
+	color: #DDE2B9;
+	margin:  0;
+}
+
+body{
+	background:#1d1a05;
+}
+
+header {
+	background: #ca3c25;
+	position: relative;
+	height: 60px;
+}
+
+nav {
+	display: inline-block;
+	padding-left: 210px;
+	padding-top: 20px;
+}
+
+nav a {
+	padding-right: 20px;
+}
+
+#galleryContent{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 850px;
+}
+
+.divContent{
+	position: relative;
+	padding-right: 30px;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+
+#galleryContent div img{
+	width: 100%;
+	height: 100%;
+	border: 4px silver solid;
+	overflow: hidden;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.close{
+	position: absolute;
+	background: none;
+	border: none;
+	left: 10px;
+	top: 5px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.close:hover{
+	color: #ca3c25;
+}
+
+#infoContent{
+	width: 950px;
+	margin: auto;
+}
+
+.btn{
+	background-color: #ca3c25;
+	border: none;
+	padding: 10px;
+	width: 32%;
+	outline: 0;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color:  #ba1c13;
+	color: white;
+}
+
+#origenInfo,#historiaInfo{
+	width: 50%;
+	display: table-cell;
+	text-align: justify;
+	padding: 20px;
+	padding-left: 0;
+}
+
+#origenInfo p,#historiaInfo p{
+	margin-bottom: 10px;
+	padding-right: 10px;
+}
+
+.display{
+	display: none;
+}
+
+.none{
+	visibility: hidden;
+}
